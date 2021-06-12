@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inside HTML file</h1>
+    <form action="" method="POST">
+    {% csrf_token %}
+        <input type="number" placeholder="current_balance" name="1">
+        <input type="number" placeholder= "current_month_debit" name = "2">
+        <input type="number" placeholder= "previous_month_debit" name = "3">
+        <input type="number" placeholder= "previous_month_end_balance" name="4">
+        <input type="number" placeholder= "days_since_last_transaction" name="5">
+        <input type="number" placeholder= "average_month_balance_prevQ2" name="6">
+        <input type="number" placeholder= "previous_month_balance" name="7">
+        <input type="text" placeholder= "vintage" name="8">
+        <input type="number" placeholder= "age" name="9">
+        <input type="number" placeholder= "previous_month_credit" name="10">
+        <button type="submit"> Submit </button>
+
+    </form>
+        {% if output %}
+        <h1>Prediction is  {{ output }}</h1>
+        {% endif %}
+</body>
+</html>
