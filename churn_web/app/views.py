@@ -31,8 +31,6 @@ def home(request):
         context = {
             'output': pred[0]
         }
+        return(render(request,'home1.html',context))
+    return(render(request,'home1.html'))
 
-
-    return(render(request,'home.html',context))
-# def home(request):
-#     return(HttpResponse('m here'))
