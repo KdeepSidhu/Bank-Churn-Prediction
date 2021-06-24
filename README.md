@@ -66,8 +66,8 @@ after building model Evalute uits performance metrics find out confusion metrix 
  
  SElect best model on the basis of Best performance we select random forest becouse its accuracy, precision, recall is better than other model.
  
- # Step Eight: Build Website and Deployed :
- Built a HtML CSS website and build Backend with Django and connect with model and deploy it on heroku platform
+ # Step Eight: Build Website and Deployed for customer use :
+ Built a HtML CSS website and build Backend with Django and connect with model and deploy it on heroku platform https://kukaurchurn.herokuapp.com/ 
  
 
 
