@@ -8,21 +8,20 @@ https://kukaurchurn.herokuapp.com/
 A Bank wants to take care of customer retention for its product: savings accounts. The bank wants you to identify customers likely to churn balances below the minimum balance. You have the customers information such as age, gender, demographics along with their transactions with the bank.
 My task as a data scientist would be to predict the propensity to churn for each customer.
 
-Challenges:
+# Challenges:
 Some financial services customers become quite valuable as they generate fees on transactions and grow a portfolio of business over the years including banking fees, credit cards, home loans, personal loans and more. Simple churn analysis uses rules based on known behaviors to identify potential churn risks. Rules-based systems, however, are inflexible and miss many customers who do churn and generate false positives that end up giving expensive incentives to customers who were not at risk to leave the bank.
 
-Opportunity :
+# Opportunity :
 AI is a great solution for customer churn prediction as the problem involves complex data over time and interactions between different customer behaviors that can be difficult for people to identify. AI can look at a variety of data, including new data sources, and at relatively complex interactions between behaviors and compared to individual history to determine risk. AI can also be used to recommend the best offer that will most likely retain a valuable customer. In addition, AI can identify the reasons why a customer is at risk and allow financial institution to act against those areas for the individual customer and more globally.
 
 
-
-We build a HtML CSS website and build Backend with Django and connect with model and deploy it on heroku platform
+I build a HtML CSS website and build Backend with Django and connect with model and deploy it on heroku platform
 
 # Approaching the Solution:
 
 
 # Step One: Collecting Data
-We take data From UCi machine learning reposatry. There are many other sources available for taking data like kaggle , open source databases etc.
+Took data From UCi machine learning repository. There are many other sources available for taking data like kaggle , open source databases etc.
 
 # Step two: setup your computer:
 First of all download all the required library and tools. and setup our Machine.
@@ -68,7 +67,7 @@ after building model Evalute uits performance metrics find out confusion metrix 
  SElect best model on the basis of Best performance we select random forest becouse its accuracy, precision, recall is better than other model.
  
  # Step Eight: Build Website and Deploye:
- We build a HtML CSS website and build Backend with Django and connect with model and deploy it on heroku platform
+ Built a HtML CSS website and build Backend with Django and connect with model and deploy it on heroku platform
  
 
 
