@@ -36,7 +36,7 @@ First of all download all the required library and tools. and setup our Machine.
 - Create heroku account
 - download heroku on local computer
 
-# Step Three: Data Analisys:
+# Step Three: Data analysis:
 Analyse the data with the help of matplotlib and seaborn library. done analisys by Univariate and Bivariate method and
 find out meaningfull insights of the data. this insights help us to taking some decision regarding data engineering and model building and selection.
 for whole analysys insights go to the final project file and read it.
@@ -45,7 +45,7 @@ for whole analysys insights go to the final project file and read it.
 After geting the data undestanding we move forward for the data cleaning or data engineering parts. In this data have lots have null values and there are many outliers we 
 fill null values with some logical undestanding, delete unwanted columns, and standardize the data, encode the data also.
 - Remove unwanted Columns.
-- Fill Null values with analisys.
+- Fill Null values with analysis.
 - Remove outliers
 - create dummy variable for categorical data
 - Scale the data with min max scaler
@@ -56,7 +56,7 @@ After data cleaning build a ML model on that. split data and build a five models
 - SVM
 - Logistic Regression
 - KNN
-after building model Evalute uits performance metrics find out confusion metrix , precision , recall and accuracy for each model.
+after building model Evaluate uits performance metrics find out confusion metrix , precision , recall and accuracy for each model.
 
 
 # Step Six: HyperparameterTuning:
@@ -64,7 +64,7 @@ after building model Evalute uits performance metrics find out confusion metrix 
  
  # Step Seven: Model Selection:
  
- SElect best model on the basis of Best performance we select random forest becouse its accuracy, precision, recall is better than other model.
+ Select best model on the basis of Best performance we select random forest becouse its accuracy, precision, recall is better than other model.
  
  # Step Eight: Build Website and Deployed for customer use :
  Built a HtML CSS website and build Backend with Django and connect with model and deploy it on heroku platform https://kukaurchurn.herokuapp.com/ 
